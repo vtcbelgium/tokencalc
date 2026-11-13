@@ -1,0 +1,20 @@
+{
+  "customizedFields": {
+    "customFaqAnswer": "TokenCalc supports popular models like GPT-3, GPT-4, and BERT.",
+    "customFaqQuestion": "What models are supported?",
+    "eyebrow": "OFFLINE \u00b7 ZERO UPLOAD \u00b7 INSTANT",
+    "heroSubtitle": "Calculate LLM token costs and estimate input/output tokens across major model families.",
+    "inputPlaceholder": "Enter your text here...",
+    "primaryCta": "GET STARTED"
+  },
+  "customizedFieldsSha256": "7c30d0416d1a41027d26bb7e249cc398d03d28c884d0d44a81bdaad898c50f4a",
+  "inferenceMs": 3985,
+  "modelId": "qwen2.5-coder:7b",
+  "paidApiCalls": 0,
+  "promptSha256": "56b11f63678aa365ec88f2e58a1f109cd340a566622d88506ca389e2c9439ebc",
+  "runId": "dk01-tokencalc-1794529081",
+  "schema": "othrys.cortex.dk01-theia-receipt.v1",
+  "titanId": "theia",
+  "tokensIn": 283,
+  "tokensOut": 103
+}

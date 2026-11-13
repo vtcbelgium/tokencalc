@@ -1,0 +1,18 @@
+{
+  "authority": "NONE",
+  "externalActionsAuthorized": false,
+  "intent": {
+    "description": "Free offline LLM token calculator and cost estimator.",
+    "mode": "LOCAL_STAGE2_CUSTOMIZED_SCRATCH_ONLY",
+    "modelId": "qwen2.5-coder:7b",
+    "runId": "dk01-tokencalc-1794529081",
+    "schema": "othrys.cortex.dk01-customizer.v1",
+    "slug": "tokencalc",
+    "task": "Estimate input and output tokens across major model families and calculate inference costs client-side.",
+    "titanId": "theia",
+    "title": "TokenCalc"
+  },
+  "intentSha256": "86b9ce9dc4fac7b09a3196048a82bd0ee83a41d4e4ca3fac8ff3d3a6c0998fe5",
+  "paidApiCalls": 0,
+  "startedAt": "2026-11-13T00:18:01+00:00"
+}
