@@ -78,8 +78,8 @@
       <div class="workspace-body">
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
           <div>
-            <label for="model-select" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem; color: var(--color-text);">Target LLM Model</label>
-            <select id="model-select" class="btn" style="width: 100%; padding: 0.6rem; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text); border-radius: 6px;">
+            <label for="model-select" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.45rem; color: var(--text-primary);">Target LLM Model</label>
+            <select id="model-select" class="form-select" aria-label="Target LLM Model">
               <option value="claude-3-5-sonnet">Claude 3.5 Sonnet ($3.00 / $15.00)</option>
               <option value="claude-3-5-haiku">Claude 3.5 Haiku ($0.80 / $4.00)</option>
               <option value="gpt-4o">GPT-4o ($2.50 / $10.00)</option>
@@ -92,8 +92,8 @@
             </select>
           </div>
           <div>
-            <label for="output-tokens-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem; color: var(--color-text);">Expected Output Tokens</label>
-            <input id="output-tokens-input" type="number" min="0" max="128000" value="500" class="btn" style="width: 100%; padding: 0.6rem; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text); border-radius: 6px; text-align: left;" />
+            <label for="output-tokens-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.45rem; color: var(--text-primary);">Expected Output Tokens</label>
+            <input id="output-tokens-input" type="number" min="0" max="128000" value="500" class="form-input" aria-label="Expected Output Tokens" />
           </div>
         </div>
 
