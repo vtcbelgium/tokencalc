@@ -8,6 +8,13 @@
   <title>TokenCalc — Privacy-Focused Client-Side Utility | OTHRYS Fleet</title>
   <meta name="description" content="Free offline LLM token calculator and cost estimator. Privacy-focused and runs entirely in your browser with zero server uploads." />
   <link rel="canonical" href="https://tokencalc.othrys.be/" />
+  <meta property="og:title" content="TokenCalc — LLM Token &amp; Context Cost Calculator" />
+  <meta property="og:description" content="Count LLM tokens and estimate context costs entirely in your browser. No uploads, no tracking cookies." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tokencalc.othrys.be/" />
+  <meta property="og:image" content="https://tokencalc.othrys.be/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://tokencalc.othrys.be/og-image.svg" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="stylesheet" href="/src/style.css" />
   <script type="application/ld+json">
@@ -25,6 +32,38 @@
       "price": "0",
       "priceCurrency": "EUR"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does TokenCalc do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "TokenCalc is a client-side calculator that estimates LLM token counts and context cost for the text you paste in."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does TokenCalc run locally in my browser?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. All calculations run 100% in your browser, so your text is processed locally on your device."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does TokenCalc use tracking cookies or upload my text?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. TokenCalc sets zero tracking cookies and sends nothing to the cloud; no account is required."
+        }
+      }
+    ]
   }
   </script>
 </head>
