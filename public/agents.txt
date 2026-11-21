@@ -1,6 +1,6 @@
 Name: TokenCalc
 URL: https://tokencalc.othrys.be/
-Description: TokenCalc is a privacy-focused, in-browser token calculator for AI model context windows. It helps developers estimate token counts for prompts, responses, and total context usage without any server-side processing.
+Description: Offline LLM token calculator and cost estimator running entirely in your browser with zero server uploads.
 LLMs-Txt: https://tokencalc.othrys.be/llms.txt
 Sitemap: https://tokencalc.othrys.be/sitemap.xml
 Protocol: public-read-only

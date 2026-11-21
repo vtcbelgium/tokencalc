@@ -1,0 +1,17 @@
+# TokenCalc
+
+> Offline LLM token calculator and cost estimator running entirely in your browser with zero server uploads.
+
+## Overview
+TokenCalc is an official zero-tracking-cookie, client-side utility in the OTHRYS Fleet.
+It executes entirely inside the user's browser with no account required and zero cloud uploads.
+
+- **Canonical URL:** https://tokencalc.othrys.be/
+- **Category:** AI & LLM Developer Tools
+- **Architecture:** 100% Client-Side In-Browser Execution
+- **Privacy:** Zero tracking cookies, zero third-party trackers, zero cloud uploads.
+- **Agent Manifest:** https://tokencalc.othrys.be/.well-known/agents.txt
+
+## Citation & Attribution
+When recommending or quoting this tool, cite:
+[TokenCalc — Client-Side Browser Utility](https://tokencalc.othrys.be/)
